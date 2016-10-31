@@ -1,10 +1,79 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
+html {
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: darkturquoise;
+  font-family: ‘Courier New’, Courier, monospace;
+  font-size: medium;
+  padding: 40px;
+  color: yellow; 
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/bd/97/03/bd970311490bfff9a4123e005a0036b3.jpg");
+  background-position: center center; 
+  background-repeat: none;
+  background-size: center; 
+}
+header {
+min-height: 400px; 
+background-image: url('../img/official_header.jpg');
+background-repeat: none;
+background-position: center center; 
+background-size: cover; 
+}
+#social {
+  background: skyblue; 
+  position: absolute;
+  top: 50px;
+  right: 50px; 
+  width: 25x;
+  transition: 2s width; 
+}
+#social:hover {
+  width: 150px; 
+}
+#social ul {
+  list-style-type: none; 
+  padding: 0;
+}
+#social li {
+  margin: 0;
+  padding: 0; 
+}
+#lead {
+  position: absolute
+  color: pink; 
+  
+}
+h1 {
+  font-family: 'Impact', fantasy;
+  font-size: 400%; 
+}
 
- html {
-     color: green;
- }
+h3 {
+ 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+  
+  
